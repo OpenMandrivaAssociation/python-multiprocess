@@ -1,6 +1,6 @@
 Name:		python-multiprocess
 Version:	0.70.19
-Release:	1
+Release:	2
 Summary:	Better multiprocessing and multithreading in Python
 License:		BSD-3-Clause
 Group:		Development/Python
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/source/m/multiprocess/multiproc
 BuildArch:	noarch
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 Requires:	python%{pyver}dist(dill)
