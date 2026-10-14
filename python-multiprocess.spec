@@ -23,5 +23,4 @@ datasets.
 %doc README.md
 %license LICENSE
 %{py_sitedir}/multiprocess
-%{py_sitedir}/_multiprocess
 %{py_sitedir}/multiprocess-*.*-info
